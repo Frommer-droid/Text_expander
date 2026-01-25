@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+pycache/
+*.py[cod]
+*$py.class
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Env
+.env.local
+.env.production
+
+# Application Data
+*.json
+*.lnk
+*.toml
+
+# Build artifacts
+build/
+dist/
+test_output/
+fixtures/temp/
+node_modules/
+target/
+
+# Build & Release Scripts
+00_*
+*.bat
+!install_service.bat
+*_template.pyw
+*_GUIDE.md
+Build_Tools/*.template
+Build_Tools/*_template.py
+
+# Internal Docs & Assets
+Buttons.md
+VERSIONING_GUIDE.md
+BUILD_TOOLS_GUIDE.md
+INSTRUCTION_RELEASE_GUIDE.md
+global_rules.md
+GLOBAL_RULES.md
+logo.png
