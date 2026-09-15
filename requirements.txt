@@ -1,0 +1,5 @@
+PySide6
+pynput
+pywin32
+psutil
+pyperclip

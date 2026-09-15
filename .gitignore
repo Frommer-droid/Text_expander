@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+pycache/
+*.py[cod]
+*$py.class
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+
+# Env
+.venv/
+.env.local
+.env.production
+.env
+.ruff_cache/
+
+# Runtime data
+expander_settings.json
+snippets.json
+Build_Tools/PyCompiler_settings.json
+*.lnk
+
+# Build artifacts
+build/
+dist/
+Build_Tools/build/
+Build_Tools/dist/
+Text_expander/
+test_output/
+fixtures/temp/
+node_modules/
+target/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build & Release Scripts
+00_*
+*.bat
+!install_service.bat
+*_template.pyw
+*_GUIDE.md
+Build_Tools/*.template
+Build_Tools/*_template.py
+
+# Internal Docs & Assets
+handoff.md
+Buttons.md
+VERSIONING_GUIDE.md
+BUILD_TOOLS_GUIDE.md
+INSTRUCTION_RELEASE_GUIDE.md
+global_rules.md
+GLOBAL_RULES.md
+logo.png
+
+# Retained local verification artifacts
+.pytest_publication_20260914/
+.pytest_publication_20260914_final/

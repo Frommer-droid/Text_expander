@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Text Expander">
+  <defs>
+    <linearGradient id="background" x1="20" y1="14" x2="236" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3978D8"/>
+      <stop offset="0.55" stop-color="#2756B3"/>
+      <stop offset="1" stop-color="#193571"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="52" y1="62" x2="184" y2="194" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9F4FF"/>
+      <stop offset="1" stop-color="#62D6F2"/>
+    </linearGradient>
+  </defs>
+  <!-- Полностью непрозрачная подложка намеренно доходит до всех краёв ICO. -->
+  <rect width="256" height="256" fill="url(#background)"/>
+  <path d="M44 54h76v24H94v124H68V78H44V54Z" fill="#FFF"/>
+  <path d="M126 66h78a12 12 0 0 1 0 24h-78a12 12 0 0 1 0-24Zm0 50h58a12 12 0 0 1 0 24h-58a12 12 0 0 1 0-24Zm0 50h82a12 12 0 0 1 0 24h-82a12 12 0 0 1 0-24Z" fill="url(#accent)"/>
+  <path d="m104 118 28 22-28 22" fill="none" stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="14"/>
+  <circle cx="211" cy="45" r="11" fill="#7BE3F7" opacity=".9"/>
+</svg>
